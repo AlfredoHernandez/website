@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "AlfredohdzCom",
+    name: "AlfredoHernandez",
     products: [
         .executable(
-            name: "AlfredohdzCom",
-            targets: ["AlfredohdzCom"]
+            name: "AlfredoHernandez",
+            targets: ["AlfredoHernandez"]
         ),
     ],
     dependencies: [
@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AlfredohdzCom",
+            name: "AlfredoHernandez",
             dependencies: ["Publish"]
         ),
     ]

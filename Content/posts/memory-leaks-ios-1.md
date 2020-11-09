@@ -1,7 +1,7 @@
 ---
 date: 2020-09-06 00:00
 description: Un primer vistazo a los Memory Leaks en iOS, explicado de una manera muy simple y fácil de entender.
-tags: xcode, iOS, swift, memory-leaks
+tags: xcode, iOS, swift, memory-leaks, spanish
 ---
 # Memory Leaks en iOS
 

@@ -7,7 +7,7 @@ import Plot
 import Publish
 
 // This type acts as the configuration for your website.
-struct AlfredohdzCom: Website {
+struct AlfredoHernandez: Website {
     enum SectionID: String, WebsiteSectionID {
         case posts
     }
@@ -26,5 +26,5 @@ struct AlfredohdzCom: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try AlfredohdzCom()
+try AlfredoHernandez()
     .publish(withTheme: .neon)
