@@ -9,7 +9,7 @@ import Publish
 // This type acts as the configuration for your website.
 struct AlfredoHernandez: Website {
     enum SectionID: String, WebsiteSectionID {
-        case posts
+        case blog
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
